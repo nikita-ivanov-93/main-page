@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-  background: url(/images/bg/hero.jpg) center top no-repeat, url(/images/bg/bottom-pic.jpg) center bottom 127px  no-repeat;
+  background: url(./images/bg/hero.jpg) center top no-repeat, url(./images/bg/bottom-pic.jpg) center bottom 127px  no-repeat;
 }
 
 .container {
@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 490px;
   height: 505px;
-  background: url(/images/decor/gates.jpg) center center / cover no-repeat;
+  background: url(./images/decor/gates.jpg) center center / cover no-repeat;
 }
 
 .about-description {
@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -408px;
   margin-left: 355px;
   overflow: hidden;
-  background: url(/images/decor/mountains.jpg);
+  background: url(./images/decor/mountains.jpg);
   background-size: cover;
   color: #060606;
 }
@@ -446,35 +446,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .networks__item--telegram .networks__link {
-  background-image: url(/images/icons/socials/t.png);
+  background-image: url(./images/icons/socials/t.png);
 }
 
 .networks__item--telegram .networks__link:hover {
-  background-image: url(/images/icons/socials/t2.png);
+  background-image: url(./images/icons/socials/t2.png);
 }
 
 .networks__item--vk .networks__link {
-  background-image: url(/images/icons/socials/vk.png);
+  background-image: url(./images/icons/socials/vk.png);
 }
 
 .networks__item--vk .networks__link:hover {
-  background-image: url(/images/icons/socials/vk2.png);
+  background-image: url(./images/icons/socials/vk2.png);
 }
 
 .networks__item--facebook .networks__link {
-  background-image: url(/images/icons/socials/f.png);
+  background-image: url(./images/icons/socials/f.png);
 }
 
 .networks__item--facebook .networks__link:hover {
-  background-image: url(/images/icons/socials/f2.png);
+  background-image: url(./images/icons/socials/f2.png);
 }
 
 .networks__item--instagram .networks__link {
-  background-image: url(/images/icons/socials/in.png);
+  background-image: url(./images/icons/socials/in.png);
 }
 
 .networks__item--instagram .networks__link:hover {
-  background-image: url(/images/icons/socials/in2.png);
+  background-image: url(./images/icons/socials/in2.png);
 }
 
 .contacts__text-footer {
