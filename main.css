@@ -382,11 +382,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 490px;
   height: 505px;
   background: url(./images/decor/gates.jpg) center center / cover no-repeat;
+  border-radius: 5px;
 }
 
 .about-description {
   width: 785px;
-  height: 455px;
   padding: 70px 202px 66px 81px;
   margin-top: -408px;
   margin-left: 355px;
@@ -394,6 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url(./images/decor/mountains.jpg);
   background-size: cover;
   color: #060606;
+  border-radius: 5px;
 }
 
 .about-description__title {
