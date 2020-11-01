@@ -1,0 +1,28 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 191px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  color: white;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.contacts__text {
+  font-style: normal;
+  font-size: 13px;
+  color: #98A4A8;
+  text-decoration: underline;
+}
+
+
+.contacts__text-footer {
+  font-size: 11px;
+  font-style: normal;
+  color: #9A9A9A;
+}

@@ -1,0 +1,23 @@
+.button {
+  border: 1px solid #F5170E;
+  border-radius: 35px;
+  background: white;
+  padding: 18px 40px;
+  color:  #F5170E;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-start;
+}
+
+.button:hover {
+  background: #F5170E;
+  color: white;
+}
+
+
+.button-watch {
+  padding: 17px 29px;
+  margin-bottom: 26px;
+  margin-top: auto;
+}

@@ -1,0 +1,28 @@
+.footer-container {
+  margin-top: auto;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #001821;
+  height: 132px;
+  margin-top: auto;
+}
+
+.footer-container-content {
+  display: flex;
+  border-top: 2px solid #353538;
+  min-height: 146px;
+
+  /* opacity: 0.1; */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 15px 0px;
+}

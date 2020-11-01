@@ -1,0 +1,31 @@
+.hot-tours {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 77px;
+}
+
+.hot-tours__header {
+  display: flex;
+  justify-content: start;
+}
+
+.hot-tours__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 49px;
+  margin-left: 3px;
+  margin-right: 13px;
+}
+
+.hot-tours__image {
+  width: 21px;
+  height: 28px;
+  margin-top: 14px;
+  margin-right: 0p;
+}
+
+.tours-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

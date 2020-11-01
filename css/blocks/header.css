@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29px;
+  align-items: flex-start;
+}
+
+.col-left {
+  display: flex;
+  align-items: center;
+}
+
+.col-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}

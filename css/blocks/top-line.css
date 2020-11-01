@@ -1,0 +1,21 @@
+.top-line {
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  justify-content: space-between;
+  background: url(../../images/bg/headline.jpg) center top no-repeat;
+}
+
+.top-line__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  
+}
+
+.page__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1;
+}
