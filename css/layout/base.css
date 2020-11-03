@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  width: 100%;
 }
 body {
   margin: 0px auto;
@@ -8,6 +9,8 @@ body {
   line-height: 1.42;
   height: 100%;
   color: #F2F2F2;
+  width: 100%;
+  
 }
 
 * {
@@ -40,32 +43,41 @@ img {
 .wrapper {
   background: url(../../images/bg/hero.jpg) center top no-repeat, url(../../images/bg/bottom-pic.jpg) center bottom 127px  no-repeat #001822;
   overflow: hidden;
-  min-width: 1920px;
+  min-width: 1180px;
   min-height: 100%;
   display: flex;
   flex-direction: column;
   flex: auto;
-  margin: 0 auto;
-  z-index: 0;
-}
-
-.wrapper::after {
-  z-index: 5;
 }
 
 .wrapper-offers {
   background-color: white;
-  min-height: 100%;
-  min-width: 1920px;
+  min-width: 1180px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex: auto;
   overflow: hidden;
-  margin: 0 auto;
 }
 
+.wrapper-hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 1180px;
+  height: 100%;
+  background: url(../../images/bg/screen.jpg) center center no-repeat #001822;
+}
+
+.container-hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container {
-  width: 1141px;
+  width: 1160px;
   margin: 0 auto;
 }
 

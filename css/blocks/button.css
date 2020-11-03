@@ -10,6 +10,19 @@
   align-self: flex-start;
 }
 
+.container-hello .button {
+  align-self: center;
+  padding: 18px 58px;
+  background-color: #F5170E;
+  color: white;
+}
+
+.container-hello .button:hover {
+  background-color: #DA0100;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+ 
+}
+
 .button:hover {
   background: #F5170E;
   color: white;
