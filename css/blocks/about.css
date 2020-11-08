@@ -26,13 +26,13 @@
 .about-description__content {
   display: flex;
   flex-direction: column;
-  margin-bottom: 52px;
+  margin-bottom: 67px;
 }
 
 .about-description__title {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .about-description__text {

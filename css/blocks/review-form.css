@@ -1,0 +1,123 @@
+.review-form {
+  display: flex;
+  background-color: #F4F5F5;
+}
+
+.review-form__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1A1B1E;
+  margin-bottom: 57px;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.form-input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  color: #1A1B1E;
+  padding: 20px 30px;
+}
+
+.form-input:focus {
+  border: 1px solid #F5170E;
+  transition: 0s;
+}
+
+/* 
+.form-input::placeholder {
+  color: #666;
+} */
+
+.form-input:last-child {
+  margin-right: 0px;
+}
+
+.form-input--textarea {
+  height: 235px;
+}
+.form-controls {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.form-controls__title {
+  font-size: 18px;
+  color: #1A1B1E;
+  width: 35%;
+  align-items: flex-start;
+  margin-right: 36px;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.controls-item {
+  align-self: center;
+}
+
+
+.controls-item:nth-child(5) {
+  margin-right: 0px;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__tag {
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.controls__checkbox:checked~.controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button--reset {
+  margin-right: 17px;
+  background-color: #8E8E8E;
+  color:  white;
+  border-color: #8E8E8E;
+}
+
+.button--reset:hover {
+  background-color: #2B2B2B;
+  border-color: #2B2B2B;
+}
+
+.button--submit {
+  background-color: #F5170E;
+  border-color:  #F5170E;
+  color: white;
+
+}
+
+.button--submit:hover {
+  background-color:#F5170E;
+  border-color: #F5170E;
+}

@@ -16,10 +16,24 @@ body {
 * {
   box-sizing: border-box;
 }
+
+:hover {
+  transition: 0.5s;
+}
+
+:focus  {
+  outline: 0;
+  outline-offset: 0;
+}
+
 ul {
   padding: 0px;
   margin: 0px;
   
+}
+
+p {
+  margin: 0;
 }
 
 ul li {
@@ -33,6 +47,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
 }
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 
 
 img {
@@ -64,23 +85,36 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
-  min-width: 1180px;
+  width: 100%;
   height: 100%;
-  background: url(../../images/bg/screen.jpg) center center no-repeat #001822;
+  background: url(/images/decor/shades.png) center center no-repeat, url(../../images/bg/screen.jpg) center center no-repeat #001822;
+}
+
+.page-content {
+  min-height: 1578px;
 }
 
 .container-hello {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
+
 .container {
-  width: 1160px;
+  width: 1140px;
   margin: 0 auto;
 }
 
+.reviews-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 98px 0px 65px;
+}
 
 .hero-container {
   display: flex;
@@ -90,3 +124,31 @@ img {
   min-height: 511px;
 }
 
+.advertising-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 363px;
+}
+
+.form-container {
+  padding: 60px 0px 96px;
+}
+
+.col-left {
+  display: flex;
+  align-items: center;
+}
+
+.col-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.reviews .col {
+  /* flex: 1; */
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 48%;
+}

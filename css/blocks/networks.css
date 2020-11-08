@@ -15,40 +15,66 @@
 }
 
 .networks__link {
-  display: block;
   width: 36px;
   height: 36px;
-  text-decoration: none;
+  display: block;
+  position: relative;
 }
 
-.networks__item--telegram .networks__link {
-  background-image: url(../../images/icons/socials/t.png);
+.networks__item .networks__link:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url(../../images/icons/socials/css_sprites.png);
 }
 
-.networks__item--telegram .networks__link:hover {
-  background-image: url(../../images/icons/socials/t2.png);
+
+.networks__item--telegram .networks__link:after {
+  background-position: -122px -10px;
 }
 
-.networks__item--vk .networks__link {
-  background-image: url(../../images/icons/socials/vk.png);
+.networks__item--telegram .networks__link:hover:after {
+  background-position: -122px -66px;
+  animation: animation 1s;
 }
 
-.networks__item--vk .networks__link:hover {
-  background-image: url(../../images/icons/socials/vk2.png);
+.networks__item--vk .networks__link:after {
+  background-position: -10px -122px;
 }
 
-.networks__item--facebook .networks__link {
-  background-image: url(../../images/icons/socials/f.png);
+.networks__item--vk .networks__link:hover:after {
+  background-position: -66px -122px;
+  animation: animation 1s;
 }
 
-.networks__item--facebook .networks__link:hover {
-  background-image: url(../../images/icons/socials/f2.png);
+.networks__item--facebook .networks__link:after {
+  background-position: -10px -10px;
 }
 
-.networks__item--instagram .networks__link {
-  background-image: url(../../images/icons/socials/in.png);
+.networks__item--facebook .networks__link:hover:after {
+  background-position: -66px -10px;
+  animation: animation 1s;
 }
 
-.networks__item--instagram .networks__link:hover {
-  background-image: url(../../images/icons/socials/in2.png);
+.networks__item--instagram .networks__link:after {
+  background-position: -10px -66px;
+}
+
+.networks__item--instagram .networks__link:hover:after {
+  background-position: -66px -66px;
+  animation: animation 1s;
+}
+
+@keyframes animation {
+  from {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

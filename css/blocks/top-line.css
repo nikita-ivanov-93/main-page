@@ -13,9 +13,10 @@
   flex: 1;
   
 }
-
 .page__title {
+  position: absolute;
   font-size: 72px;
   font-weight: bold;
   line-height: 1;
+  margin-top: 179px;
 }
