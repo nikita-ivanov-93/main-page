@@ -1,16 +1,15 @@
 .advertising {
   background: url(../../images/bg/middleline.jpg) center center repeat;
-  position: relative;
 }
 
 .advertising__img {
   position: absolute;
-  right: 226px;
+  right: 36px;
   top: 19px;
 }
 
 .advertising_text {
-  width: 50%;
+  width: 595px;
   font-size: 48px;
   font-weight: bold;
   color: white;
