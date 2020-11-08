@@ -53,7 +53,7 @@
 }
 
 .review__link:after {
-  content: url(/images/icons/socials/vk-blue.png);
+  content: url(../../images/icons/socials/vk-blue.png);
   height: 30px;
   display: block;
   margin-left: 8px;
